@@ -30,6 +30,7 @@ Simultaneamente, dados não sensíveis e hashes anonimizados são publicados em 
 
 Utilizamos bancos de dados NoSQL para armazenar dados sensíveis em qualquer formato, oferecendo flexibilidade e escalabilidade, permitindo que os dados sejam editados ou apagados conforme necessário, em conformidade com o direito ao esquecimento da LGPD.
 
+
 **Provas de Conhecimento Zero (ZKP):**
 
 Publicamos provas em blockchain utilizando Zero Knowledge Proof, permitindo auditorias que garantem a integridade e existência dos dados, sem expor informações sensíveis.
@@ -37,6 +38,8 @@ Publicamos provas em blockchain utilizando Zero Knowledge Proof, permitindo audi
 **Conformidade e Transparência:**
 
 A publicação de hashes em blockchain assegura que os dados são protegidos, anonimizados e audíveis, permitindo a comprovação de sua existência e segurança de forma permanente.
+
+**Apagou ou Editou? É só gerar outro Hash e publicar na blockchain, e quando for prerciso é só gerar nova prova ZKP.**
 
 ## Benefícios: 
 
