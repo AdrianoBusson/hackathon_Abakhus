@@ -1,10 +1,30 @@
 # Arbitrum Hacker House (2024-2)
 Projeto desenvolvido para o Hackathon Abakhus - Arbitrum
 
+## ZKP-Privacy
 Apresentado dia 15/10/2024
 
 Por Adriano Busson
 
+## Problema:
+
+Empresas enfrentam grandes desafios ao armazenar dados sensíveis, especialmente em conformidade com a Lei Geral de Proteção de Dados (LGPD). 
+
+A necessidade de garantir privacidade, segurança e, ao mesmo tempo, permitir auditorias seguras é uma dor constante para setores como bancos, seguradoras, saúde e e-commerce. 
+
+Além disso, as empresas precisam assegurar o direito ao esquecimento e a possibilidade de editar dados conforme regulamentações, sem comprometer a integridade dos registros.
+
+## Solução:
+
+Nossa plataforma híbrida de armazenamento de dados combina as melhores práticas de armazenamento seguro em sistemas NoSQL com a integridade da blockchain pública e Zero Knowledge Proof (ZKP). 
+
+O sistema permite que dados sensíveis sejam armazenados de forma segura em bases de dados NoSQL, oferecendo suporte a edições, direito ao esquecimento e auditoria. 
+
+Simultaneamente, dados não sensíveis e hashes anonimizados são publicados em blockchain, garantindo segurança, conformidade e transparência.
+
+## Diferenciais:
+
+Armazenamento NoSQL Seguro:Utilizamos bancos de dados NoSQL para armazenar dados sensíveis em qualquer formato, oferecendo flexibilidade e escalabilidade, permitindo que os dados sejam editados ou apagados conforme necessário, em conformidade com o direito ao esquecimento da LGPD.
 
 ## O sistema é dividido em 3 blocos principais:
 1- Um banco de dados MongoDB.
