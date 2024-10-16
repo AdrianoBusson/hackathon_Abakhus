@@ -1,5 +1,7 @@
 # hackathon_Abakhus
 Projeto desenvolvido para o Hackathon Abakhus - Arbitrum
+Apresentado dia 15/10/2024
+Por Adriano Busson
 
 # O sistema é dividido em 3 blocos principais:
 1- Um banco de dados MongoDBcom.
