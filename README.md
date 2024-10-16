@@ -1,7 +1,10 @@
 # hackathon_Abakhus
 Projeto desenvolvido para o Hackathon Abakhus - Arbitrum
+
 Apresentado dia 15/10/2024
+
 Por Adriano Busson
+
 
 ## O sistema é dividido em 3 blocos principais:
 1- Um banco de dados MongoDBcom.
@@ -103,3 +106,6 @@ O valor original do desafio c gerado pelo provador e o valor recalculado pelo ve
 Se cv for igual a c, isso significa que a prova é válida, ou seja, o provador conseguiu reproduzir uma resposta que corresponde ao desafio gerado de forma consistente. Isso só seria possível se o provador realmente conhecesse o valor r, v e o JSON original, pois esses valores são necessários para gerar s e, consequentemente, para que c' coincida com c. 
 
 Se cv for igual a c exibir uma mensagem "Prova Válida" do contrário exibir "Prova não válida."
+
+
+## Observação: Os códigos anexados do node.js possuem algumas diferenças devido a simplificação do programa. Por exemplo não é utilizado (docID), o tratamento do programa foi feito apenas sobre o userID.
