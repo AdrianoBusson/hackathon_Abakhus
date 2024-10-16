@@ -61,7 +61,7 @@ Verificar se o hash resultado do cálculo ZPK é o mesmo que o campo hash do doc
 
 c = H(h_1, r, v), onde H é uma função hash segura. Este valor é determinístico e depende do hash h_1, do nonce r e do nounce v. Ou seja, ele é gerado de maneira que qualquer um possa recalculá-lo se tiver os mesmos valores de entrada, mas só pode ser produzido corretamente pelo provador que conhece r e o v.
 
-Resposta (s):  A resposta s é gerada pelo provador com base em um cálculo que envolve o nonce r, o compromisso (h_1) e o nonce v. A resposta serve para provar que o provador realmente conhece o valor original (JSON) que gerou o hash público h_1. O cálculo para s deve ser feito de modo a garantir que o valor não possa ser produzido sem o conhecimento do nonce r e do nonce v.
+**Resposta (s):**  A resposta s é gerada pelo provador com base em um cálculo que envolve o nonce r, o compromisso (h_1) e o nonce v. A resposta serve para provar que o provador realmente conhece o valor original (JSON) que gerou o hash público h_1. O cálculo para s deve ser feito de modo a garantir que o valor não possa ser produzido sem o conhecimento do nonce r e do nonce v.
  
 ## O programa chamado Verificador tem as seguintes caracteristicas:
 
@@ -91,15 +91,15 @@ Resposta (s):  A resposta s é gerada pelo provador com base em um cálculo que 
 
 O verificador deve usar os valores recebidos (h_1, c, s) para validar que o provador realmente conhece o conteúdo original que produziu o hash público h_1.
 
-O verificador faz o seguinte:
+### O verificador faz o seguinte:
 
-Recalcular o Desafio c:
+**Recalcula o Desafio c:**
 
 O verificador usa os valores fornecidos pelo provador h_1 e a resposta s e o nonce v que o verificador conhece, para recalcular o valor do desafio (c, o qual chamamos de cv. Esse recalculo pode ser descrito pela mesma função hash que foi usada pelo provador:
 
 cv = H(h_1, r, v), onde r está embutido nos cálculos que o provador fez na geração de s.
 
-Comparação entre c e cv:
+**Comparação entre c e cv:**
 
 O valor original do desafio c gerado pelo provador e o valor recalculado pelo verificador cv devem ser iguais.
 
