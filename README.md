@@ -7,7 +7,7 @@ Por Adriano Busson
 
 
 ## O sistema é dividido em 3 blocos principais:
-1- Um banco de dados MongoDBcom.
+1- Um banco de dados MongoDB.
 
 2- Um programa em node.js, chamado de "Provador" que recebe requisições por uma API, faz CRUD com o banco de dados, faz processamentos de Zero Knoledge Proof e faz publicações em uma API externa.
 
