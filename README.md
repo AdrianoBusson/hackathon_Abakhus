@@ -14,20 +14,27 @@ Por Adriano Busson
 ### 1.1- Cadastro de usuários, onde cada usuário tem várias características (dados cadastrais, financeiros, resultados de exames, registros de consultas, etc.).
 ### 1.2- Cada usuário deve ter um identificador único (um campo userID).
 ### 1.3- Características do Usuário: As seguintes características podem ser armazenadas como subdocumentos embutidos, sendo que cada documento embutido deverá ter um identificador único (docID):
-Informações pessoais: nome, endereço, data de nascimento, etc.
-Dados Financeiros: salário, histórico de crédito, transações, etc.
-Resultados de Exames Médicos: Podem incluir diferentes tipos e formatos de dados, como imagens, PDFs ou valores numéricos.
-Registro de Consultas Médicas: Notas médicas, prescrições, recomendações, etc.
-Outras Coleções de Dados: Qualquer outra informação relevante que precisa ser armazenada.
+**Informações pessoais:** nome, endereço, data de nascimento, etc.
+
+**Dados Financeiros:** salário, histórico de crédito, transações, etc.
+
+**Resultados de Exames Médicos:** Podem incluir diferentes tipos e formatos de dados, como imagens, PDFs ou valores numéricos.
+
+**Registro de Consultas Médicas:** Notas médicas, prescrições, recomendações, etc.
+
+**Outras Coleções de Dados:** Qualquer outra informação relevante que precisa ser armazenada.
+
 ### 1.4- Cada documento embutido deve incluir os seguintes campos adicionais:
-h_1: Uma representação hash criptográfica do JSON completo do documento embutido utilizando uma função hash segura (SHA-256). Isso assegura a integridade dos dados e permite verificar se eles não foram alterados.
-tokenID: Um identificador de token de uma blockchain.
+
+**h_1:** Uma representação hash criptográfica do JSON completo do documento embutido utilizando uma função hash segura (SHA-256). Isso assegura a integridade dos dados e permite verificar se eles não foram alterados.
+
+**tokenID:** Um identificador de token da blockchain Arbitrum.
 
 ## O programa chamado Provador terá as seguintes caracteristicas:
 ### 2.1- Fazer CRUD no mongoDB
 ### 2.2- Receber via API os seguintes dados nas requisições:
-docID: Que identifica o documento (docID) no Banco de dados.
-v: Uma string enviada para computação para ter uma função de nonce que só o verificador conhece.
+**docID:** Que identifica o documento (docID) no Banco de dados.
+**v:** Uma string enviada para computação para ter uma função de nonce que só o verificador conhece.
 ### 2.3- Ao receber a requisição via API o Provador fará o seguinte:
 Fazer a leitura do documento embutido no banco de dados pelo docID recebido via API.
 Gerar uma prova ZPK Fiat-Sharmir/Schnorr com as seguintes caracteristicas:
