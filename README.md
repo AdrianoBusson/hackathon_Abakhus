@@ -34,7 +34,7 @@ Utilizamos bancos de dados NoSQL para armazenar dados sensíveis em qualquer for
 
 Publicamos provas em blockchain utilizando Zero Knowledge Proof, permitindo auditorias que garantem a integridade e existência dos dados, sem expor informações sensíveis.
 
-**Conformidade e Transparência: **
+**Conformidade e Transparência:**
 
 A publicação de hashes em blockchain assegura que os dados são protegidos, anonimizados e audíveis, permitindo a comprovação de sua existência e segurança de forma permanente.
 
