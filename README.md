@@ -2,9 +2,9 @@
 Projeto desenvolvido para o Hackathon Abakhus - Arbitrum
 
 # O sistema é dividido em 3 blocos principais:
-# 1- Um banco de dados MongoDBcom.
-# 2- Um programa em node.js, chamado de "Provador" que recebe requisições por uma API, faz CRUD com o banco de dados, faz processamentos de Zero Knoledge Proof e faz publicações em uma API externa.
-# 3- Um programa em node.js, chamado de "Verificador" que interaje com uma API Pública externa e faz requisições para a API do Provador.
+1- Um banco de dados MongoDBcom.
+2- Um programa em node.js, chamado de "Provador" que recebe requisições por uma API, faz CRUD com o banco de dados, faz processamentos de Zero Knoledge Proof e faz publicações em uma API externa.
+3- Um programa em node.js, chamado de "Verificador" que interaje com uma API Pública externa e faz requisições para a API do Provador.
 
 # O banco de dados MongoDB tem as seguintes caracteristicas:
 # 1.1- Cadastro de usuários, onde cada usuário tem várias características (dados cadastrais, financeiros, resultados de exames, registros de consultas, etc.).
