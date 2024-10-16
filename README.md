@@ -6,6 +6,8 @@ Apresentado dia 15/10/2024
 
 Por Adriano Busson
 
+# Pitch de apresentação
+
 ## Problema:
 
 Empresas enfrentam grandes desafios ao armazenar dados sensíveis, especialmente em conformidade com a Lei Geral de Proteção de Dados (LGPD). 
@@ -24,7 +26,31 @@ Simultaneamente, dados não sensíveis e hashes anonimizados são publicados em 
 
 ## Diferenciais:
 
-Armazenamento NoSQL Seguro:Utilizamos bancos de dados NoSQL para armazenar dados sensíveis em qualquer formato, oferecendo flexibilidade e escalabilidade, permitindo que os dados sejam editados ou apagados conforme necessário, em conformidade com o direito ao esquecimento da LGPD.
+**Armazenamento NoSQL Seguro:**
+
+Utilizamos bancos de dados NoSQL para armazenar dados sensíveis em qualquer formato, oferecendo flexibilidade e escalabilidade, permitindo que os dados sejam editados ou apagados conforme necessário, em conformidade com o direito ao esquecimento da LGPD.
+
+**Provas de Conhecimento Zero (ZKP):**
+
+Publicamos provas em blockchain utilizando Zero Knowledge Proof, permitindo auditorias que garantem a integridade e existência dos dados, sem expor informações sensíveis.
+
+**Conformidade e Transparência: **
+
+A publicação de hashes em blockchain assegura que os dados são protegidos, anonimizados e audíveis, permitindo a comprovação de sua existência e segurança de forma permanente.
+
+## Benefícios: 
+
+**Conformidade Total com a LGPD:** O sistema assegura que todos os dados sensíveis sejam armazenados de forma segura, com direito ao esquecimento e edição, enquanto mantém a imutabilidade e a transparência dos registros por meio da blockchain.
+
+**Segurança e Auditabilidade:** O uso de blockchain pública garante a segurança dos dados e facilita auditorias sem a necessidade de expor informações sensíveis, tudo validado por ZKP.
+
+**Flexibilidade do Sistema NoSQL:** A flexibilidade de um banco de dados NoSQL permite manipular os dados de forma eficiente e atender a regulamentações, como a edição ou exclusão de informações pessoais.
+
+## Mercado  Alvo:
+
+Empresas e grupos empresariais que manipulam grandes volumes de dados sensíveis e precisam de conformidade com a LGPD, como instituições financeiras, seguradoras, hospitais, empresas de e-commerce, telecomunicações e educação.
+
+# Descrição técnica de sistema:
 
 ## O sistema é dividido em 3 blocos principais:
 1- Um banco de dados MongoDB.
