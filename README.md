@@ -1,4 +1,4 @@
-# hackathon_Abakhus
+# Arbitrum Hacker House (2024-2)
 Projeto desenvolvido para o Hackathon Abakhus - Arbitrum
 
 Apresentado dia 15/10/2024
