@@ -37,7 +37,7 @@ Publicamos provas em blockchain utilizando Zero Knowledge Proof, permitindo audi
 
 **Conformidade e Transparência:**
 
-A publicação de hashes em blockchain assegura que os dados são protegidos, anonimizados e audíveis, permitindo a comprovação de sua existência e segurança de forma permanente.
+A publicação de hashes em blockchain assegura que os dados são protegidos, anonimizados e auditáveis, permitindo a comprovação de sua existência e segurança de forma permanente.
 
 **Apagou ou Editou? É só gerar outro Hash e publicar na blockchain, e quando for prerciso é só gerar nova prova ZKP.**
 
